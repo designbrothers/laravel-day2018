@@ -72,9 +72,6 @@ $speaker->save();
 <p class="fragment text-left text-07">requires hardening</p>
 <p class="fragment text-left text-07">very flexible</p>
 
-+++
-### Tools
-<p class="fragment text-left text-07">Laravel forge / Laravel envoyer</p>
 ---
 @title[PaaS]
 ## paas
@@ -85,9 +82,6 @@ $speaker->save();
 <p class="fragment text-left text-07">every provider uses his own configurations</p>
 <p class="fragment text-left text-07">very simple to start using git or a cli</p>
 
-## providers
-<p class="fragment text-left text-07">heroku</p>
-<p class="fragment text-left text-07">platform.sh</p>
 ---
 @title[Common problems]
 ## Common problems
