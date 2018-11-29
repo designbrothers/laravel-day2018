@@ -1,6 +1,6 @@
 
 @title[Splash]
-#### Deploying Laravel from dev to production
+## Deploying Laravel from dev to production
 
 ---
 @title[Who and What]
