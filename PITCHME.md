@@ -19,3 +19,46 @@ $speaker->save();
 
 
 ---
+@title[Requirements]
+# Requirements
+
+
+
+
+---
+@title[Panoramic]
+![QR](assets/img/comparison.jpg)
+
+
+---
+@title[Local]
+### local
+
+
+
+---
+@title[Self hosted]
+### self hosted
+
+
+---
+@title[IaaS]
+### iaas
+
+
+---
+@title[PaaS]
+### paas
+
+
+---
+@title[Gotcha]
+### gotcha
+
+
+---
+@title[Questions]
+# Questions?
+![QR](assets/img/qr.png)
+<p style="text-align: center !important;">https://joind.in/talk/53009</p>
+---
