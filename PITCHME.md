@@ -32,28 +32,28 @@ $speaker->save();
 
 ---
 @title[Local]
-### local
+## local
 
 
 
 ---
 @title[Self hosted]
-### self hosted
+## self hosted
 
 
 ---
 @title[IaaS]
-### iaas
+## iaas
 
 
 ---
 @title[PaaS]
-### paas
+## paas
 
 
 ---
 @title[Gotcha]
-### gotcha
+## gotchas
 
 
 ---
