@@ -35,6 +35,7 @@ At the end of the day it doesn't matter if its container or ftp, just deploy!
 ### Never forget
 <p class="fragment text-left text-07">file permission</p>
 <p class="fragment text-left text-07">url rewriting</p>
+<p class="fragment text-left text-07">discrete versions in composer.json</p>
 <p class="fragment text-left text-07">configure the .env</p>
 
 
@@ -100,6 +101,16 @@ curl -sS https://getcomposer.org/installer | php -- --install-dir=/usr/local/bin
 <p class="fragment text-left text-07">if you don't need any particular extension</p>
 <p class="fragment text-left text-07">the more is left behind, less is the control of it</p>
 <p class="fragment text-left text-07">every provider uses his own configurations</p>
+<p class="fragment text-left text-07">very simple to start using git or a cli</p>
+---
+@title[Common problems]
+## Common problems
++++
+<p class="fragment text-left text-07">file permissions</p>
+<p class="fragment text-left text-07">file ownership</p>
+<p class="fragment text-left text-07">different configurations</p>
+<p class="fragment text-left text-07">version missmatch on dependencies</p>
+<p class="fragment text-left text-07">firewall rules</p>
 ---
 @title[PaaS]
 ![QR](assets/img/faas_furious.jpg)

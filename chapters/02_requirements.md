@@ -14,6 +14,7 @@
 ### Never forget
 <p class="fragment text-left text-07">file permission</p>
 <p class="fragment text-left text-07">url rewriting</p>
+<p class="fragment text-left text-07">discrete versions in composer.json</p>
 <p class="fragment text-left text-07">configure the .env</p>
 
 
