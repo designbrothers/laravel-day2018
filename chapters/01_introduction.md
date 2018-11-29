@@ -13,4 +13,4 @@ $speaker->save();
 ```
 
 ### focus
-<p class="fragment text-left text-07">Give an overview of different deployment 'platforms'</p>
+<p class="fragment text-left text-07">Give an overview of different 'infrastructures'</p>

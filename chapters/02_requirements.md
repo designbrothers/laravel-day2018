@@ -15,4 +15,7 @@
 <p class="fragment text-left text-07">discrete versions in composer.json</p>
 <p class="fragment text-left text-07">configure the .env (specially the APP_ENV variable)</p>
 
-
++++
+### in dev remember
+<p class="fragment text-left text-07">use xdebug</p>
+<p class="fragment text-left text-07">use the App::environment() helper to enable or disable specific features</p>
