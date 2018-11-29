@@ -79,23 +79,17 @@ $speaker->save();
 ---
 @title[Panoramic]
 ![QR](assets/img/comparison.jpg)
-+++
-<p class="fragment text-left text-07">the more is left behind, less is the control of it</p>
+
 
 ---
 @title[Local]
-## local
+## local / self-hosted
 +++
+### Tools
 <p class="fragment text-left text-07">Homestead</p>
 <p class="fragment text-left text-07">Valet</p>
 <p class="fragment text-left text-07">php artisan serve</p>
-<p class="fragment text-left text-07">custom envrioment</p>
 
-
-
----
-@title[Self hosted]
-## self hosted
 
 
 ---
@@ -110,6 +104,7 @@ $speaker->save();
 ### focus on developers
 <p class="fragment text-left text-07">if you are fine with the default configuration</p>
 <p class="fragment text-left text-07">if you don't need any particular extension</p>
+<p class="fragment text-left text-07">the more is left behind, less is the control of it</p>
 ---
 @title[PaaS]
 ![QR](assets/img/faas_furious.jpg)
