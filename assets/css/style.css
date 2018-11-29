@@ -14,6 +14,10 @@
     font-size: 1.3em !important;
 }
 
+.text-red {
+    color: #ED2939 !important;
+}
+
 .text-bold {
     font-weight: 600 !important;
 }
