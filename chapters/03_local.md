@@ -12,3 +12,9 @@
 <p class="fragment text-left text-07">Valet</p>
 <p class="fragment text-left text-07">php artisan serve</p>
 <p class="fragment text-left text-07">Mailhog</p>
+
++++
+### Example
+<p class="fragment text-left text-07">install and configure the os</p>
+<p class="fragment text-left text-07">configure all the components</p>
+<p class="fragment text-left text-07">copy files</p>
