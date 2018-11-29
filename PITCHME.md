@@ -84,7 +84,6 @@ curl -sS https://getcomposer.org/installer | php -- --install-dir=/usr/local/bin
 ---
 @title[IaaS]
 ## iaas
-+++
 <p class="fragment text-left text-07">total control on the underlying OS</p>
 <p class="fragment text-left text-07">more stuff to mantain</p>
 <p class="fragment text-left text-07">requires hardening</p>
@@ -96,7 +95,6 @@ curl -sS https://getcomposer.org/installer | php -- --install-dir=/usr/local/bin
 ---
 @title[PaaS]
 ## paas
-+++
 <p class="fragment text-left text-07">no control on the underlying OS</p>
 <p class="fragment text-left text-07">if you are fine with the default configuration</p>
 <p class="fragment text-left text-07">if you don't need any particular extension</p>
@@ -106,7 +104,6 @@ curl -sS https://getcomposer.org/installer | php -- --install-dir=/usr/local/bin
 ---
 @title[Common problems]
 ## Common problems
-+++
 <p class="fragment text-left text-07">file permissions</p>
 <p class="fragment text-left text-07">file ownership</p>
 <p class="fragment text-left text-07">different configurations</p>

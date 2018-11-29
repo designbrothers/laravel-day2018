@@ -1,6 +1,5 @@
 @title[IaaS]
 ## iaas
-+++
 <p class="fragment text-left text-07">total control on the underlying OS</p>
 <p class="fragment text-left text-07">more stuff to mantain</p>
 <p class="fragment text-left text-07">requires hardening</p>
