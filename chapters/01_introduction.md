@@ -11,5 +11,6 @@ $speaker->wannaBe = 'System architect';
 $speaker->talkSpeed = 1.2;
 $speaker->save();
 ```
-### mission
-At the end of the day it doesn't matter if its container or ftp, just deploy!
+
+### focus
+<p class="fragment text-left text-07">Give an overview of different deployment 'platforms'</p>

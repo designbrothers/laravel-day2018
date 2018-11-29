@@ -7,4 +7,4 @@
 
 +++
 ### Tools
-<p class="fragment text-left text-07">Laravel forge // Laravel envoyer</p>
+<p class="fragment text-left text-07">Laravel forge / Laravel envoyer</p>
