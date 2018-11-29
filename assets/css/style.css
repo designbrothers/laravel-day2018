@@ -49,3 +49,7 @@
     background: none !important;
     box-shadow: none !important;
 }
+
+.hljs {
+    font-size: 50%;
+}
