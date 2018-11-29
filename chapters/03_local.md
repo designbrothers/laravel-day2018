@@ -1,5 +1,5 @@
 @title[Local]
-## local / self-hosted
+## local / self-hosted / OnPremises
 <p class="fragment text-left text-07">total control of the environment</p>
 <p class="fragment text-left text-07">prone to errors if managed without a configuration management tool</p>
 <p class="fragment text-left text-07">difficult to scale</p>

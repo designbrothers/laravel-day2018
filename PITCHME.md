@@ -50,7 +50,7 @@ $speaker->save();
 
 ---
 @title[Local]
-## local / self-hosted
+## local / self-hosted / OnPremises
 <p class="fragment text-left text-07">total control of the environment</p>
 <p class="fragment text-left text-07">prone to errors if managed without a configuration management tool</p>
 <p class="fragment text-left text-07">difficult to scale</p>
@@ -88,7 +88,7 @@ curl -sS https://getcomposer.org/installer | php -- --install-dir=/usr/local/bin
 <p class="fragment text-left text-07">total control of the underlying OS</p>
 <p class="fragment text-left text-07">more stuff to mantain</p>
 <p class="fragment text-left text-07">requires hardening</p>
-<p class="fragment text-left text-07">very flexible, it's possible to configure standalone servers or maybe a cluster</p>
+<p class="fragment text-left text-07">very flexible</p>
 
 +++
 ### Tools
@@ -102,6 +102,10 @@ curl -sS https://getcomposer.org/installer | php -- --install-dir=/usr/local/bin
 <p class="fragment text-left text-07">the more is left behind, less is the control of it</p>
 <p class="fragment text-left text-07">every provider uses his own configurations</p>
 <p class="fragment text-left text-07">very simple to start using git or a cli</p>
+
+## providers
+<p class="fragment text-left text-07">heroku</p>
+<p class="fragment text-left text-07">platform.sh</p>
 ---
 @title[Common problems]
 ## Common problems

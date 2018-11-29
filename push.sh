@@ -1,3 +1,5 @@
+git pull
+
 echo > 'PITCHME.md'
 
 for file in ./chapters/*.md
