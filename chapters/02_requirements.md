@@ -1,6 +1,5 @@
 @title[Requirements]
-# Requirements
-+++
+## Requirements
 <p class="fragment text-left text-07">WEBSERVER: apache2 / nginx / caddy</p>
 <p class="fragment text-left text-07">WEBSERVER-ASYNC: swoole / php-pm</p>
 <p class="fragment text-left text-07">DATABASE: MySQL / PostgreSQL / SQL Server / <span class="text-red">SQLite</span></p>
