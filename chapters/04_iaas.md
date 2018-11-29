@@ -22,7 +22,6 @@ sed -i 's/^upload_max_filesize =.*$/upload_max_filesize = 128M/' /etc/php/$PHP_V
 sed -i 's/^post_max_size =.*$/post_max_size = 128M/' /etc/php/$PHP_VERSION/fpm/php.ini
 sed -i 's/^;clear_env = no/clear_env = no/' /etc/php/$PHP_VERSION/fpm/pool.d/www.conf
 curl -sS https://getcomposer.org/installer | php -- --install-dir=/usr/local/bin --filename=composer
-
 ```
 +++
 ### Tools

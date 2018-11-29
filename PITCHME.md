@@ -29,6 +29,7 @@ At the end of the day it doesn't matter if its container or ftp, just deploy!
 <p class="fragment text-left text-07">SESSION: cookie / database / memcached / redis / <span class="text-red">file</span> / <span class="text-red">array</span></p>
 <p class="fragment text-left text-07">STORAGE: s3 / sftp / <span class="text-red">local</span></p>
 <p class="fragment text-left text-07">QUEUE: database / redis</p>
+<p class="fragment text-left text-07">LOGGING: monolog-remote / slack / <span class="text-red">single (file)</span></p>
 
 +++
 ### Never forget
@@ -48,7 +49,6 @@ At the end of the day it doesn't matter if its container or ftp, just deploy!
 ## local / self-hosted
 +++
 <p class="fragment text-left text-07">total control of the envrioment</p>
-<p class="fragment text-left text-07">dedicated performance</p>
 <p class="fragment text-left text-07">php artisan serve</p>
 <p class="fragment text-left text-07">prone to errors</p>
 <p class="fragment text-left text-07">difficult to scale</p>
@@ -87,7 +87,6 @@ sed -i 's/^upload_max_filesize =.*$/upload_max_filesize = 128M/' /etc/php/$PHP_V
 sed -i 's/^post_max_size =.*$/post_max_size = 128M/' /etc/php/$PHP_VERSION/fpm/php.ini
 sed -i 's/^;clear_env = no/clear_env = no/' /etc/php/$PHP_VERSION/fpm/pool.d/www.conf
 curl -sS https://getcomposer.org/installer | php -- --install-dir=/usr/local/bin --filename=composer
-
 ```
 +++
 ### Tools

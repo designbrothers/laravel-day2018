@@ -8,6 +8,7 @@
 <p class="fragment text-left text-07">SESSION: cookie / database / memcached / redis / <span class="text-red">file</span> / <span class="text-red">array</span></p>
 <p class="fragment text-left text-07">STORAGE: s3 / sftp / <span class="text-red">local</span></p>
 <p class="fragment text-left text-07">QUEUE: database / redis</p>
+<p class="fragment text-left text-07">LOGGING: monolog-remote / slack / <span class="text-red">single (file)</span></p>
 
 +++
 ### Never forget
