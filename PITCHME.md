@@ -57,6 +57,9 @@ $speaker->save();
 <p class="fragment text-left text-07">difficult to scale</p>
 <p class="fragment text-left text-07">no failover</p>
 <p class="fragment text-left text-07">slow setup time</p>
+<p class="fragment text-left text-07">requires hardening</p>
+<p class="fragment text-left text-07">very flexible</p>
+<p class="fragment text-left text-07">total control of the underlying OS</p>
 
 +++
 ### Tools
@@ -68,23 +71,17 @@ $speaker->save();
 +++
 ### Example
 <p class="fragment text-left text-07">install and configure the os</p>
-<p class="fragment text-left text-07">configure all the components</p>
+<p class="fragment text-left text-07">configure webserver + php</p>
+<p class="fragment text-left text-07">configure cron</p>
+<p class="fragment text-left text-07">configure queue</p>
 <p class="fragment text-left text-07">copy files</p>
 
 ---
 @title[IaaS]
 ## iaas
-<p class="fragment text-left text-07">total control of the underlying OS</p>
-<p class="fragment text-left text-07">more stuff to mantain</p>
-<p class="fragment text-left text-07">requires hardening</p>
-<p class="fragment text-left text-07">very flexible</p>
-
-+++
-### Example
-<p class="fragment text-left text-07">allocate the resources</p>
-<p class="fragment text-left text-07">configure the resources</p>
-<p class="fragment text-left text-07">set up a deploy pipeline</p>
-<p class="fragment text-left text-07">launch the deploy pipeline</p>
+<p class="fragment text-left text-07">all of the local features</p>
+<p class="fragment text-left text-07">pay as you go</p>
+<p class="fragment text-left text-07">deploy new resources in very short time</p>
 ---
 @title[PaaS]
 ## paas

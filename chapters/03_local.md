@@ -5,6 +5,9 @@
 <p class="fragment text-left text-07">difficult to scale</p>
 <p class="fragment text-left text-07">no failover</p>
 <p class="fragment text-left text-07">slow setup time</p>
+<p class="fragment text-left text-07">requires hardening</p>
+<p class="fragment text-left text-07">very flexible</p>
+<p class="fragment text-left text-07">total control of the underlying OS</p>
 
 +++
 ### Tools
@@ -16,5 +19,7 @@
 +++
 ### Example
 <p class="fragment text-left text-07">install and configure the os</p>
-<p class="fragment text-left text-07">configure all the components</p>
+<p class="fragment text-left text-07">configure webserver + php</p>
+<p class="fragment text-left text-07">configure cron</p>
+<p class="fragment text-left text-07">configure queue</p>
 <p class="fragment text-left text-07">copy files</p>
