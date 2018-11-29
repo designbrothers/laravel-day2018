@@ -20,9 +20,9 @@ $speaker->save();
 At the end of the day it doesn't matter if its container or ftp, just deploy!
 ---
 @title[Requirements]
-## Requirements
+## Laravel Requirements
 <p class="fragment text-left text-07">WEBSERVER: apache2 / nginx / caddy</p>
-<p class="fragment text-left text-07">WEBSERVER-ASYNC: swoole / php-pm</p>
+<p class="fragment text-left text-07">WEBSERVER-ASYNC: swoole / php-pm / roadrunner</p>
 <p class="fragment text-left text-07">DATABASE: MySQL / PostgreSQL / SQL Server / <span class="text-red">SQLite</span></p>
 <p class="fragment text-left text-07">CACHE: memcached / redis / database / <span class="text-red">file</span></p>
 <p class="fragment text-left text-07">SESSION: cookie / database / memcached / redis / <span class="text-red">file</span> / <span class="text-red">array</span></p>
@@ -35,7 +35,7 @@ At the end of the day it doesn't matter if its container or ftp, just deploy!
 <p class="fragment text-left text-07">file permission / ownership</p>
 <p class="fragment text-left text-07">url rewriting</p>
 <p class="fragment text-left text-07">discrete versions in composer.json</p>
-<p class="fragment text-left text-07">configure the .env</p>
+<p class="fragment text-left text-07">configure the .env (specially the APP_ENV variable)</p>
 
 
 
@@ -82,7 +82,7 @@ curl -sS https://getcomposer.org/installer | php -- --install-dir=/usr/local/bin
 ---
 @title[IaaS]
 ## iaas
-<p class="fragment text-left text-07">total control on the underlying OS</p>
+<p class="fragment text-left text-07">total control of the underlying OS</p>
 <p class="fragment text-left text-07">more stuff to mantain</p>
 <p class="fragment text-left text-07">requires hardening</p>
 <p class="fragment text-left text-07">very flexible, it's possible to configure standalone servers or maybe a cluster</p>
