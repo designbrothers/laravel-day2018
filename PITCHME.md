@@ -42,30 +42,30 @@ $speaker->save();
 ## Database
 <p class="fragment text-left text-07">MySQL</p>
 <p class="fragment text-left text-07">PostgreSQL</p>
-<p class="fragment text-left text-07 text-red">SQLite</p>
 <p class="fragment text-left text-07">SQL Server</p>
+<p class="fragment text-left text-07 text-red">SQLite</p>
 
 +++
 ## Cache
 <p class="fragment text-left text-07">memcached</p>
 <p class="fragment text-left text-07">redis</p>
-<p class="fragment text-left text-07 text-red">file</p>
 <p class="fragment text-left text-07">database</p>
+<p class="fragment text-left text-07 text-red">file</p>
 
 +++
 ## Session
-<p class="fragment text-left text-07 text-red">file</p>
 <p class="fragment text-left text-07">cookie</p>
 <p class="fragment text-left text-07">database</p>
 <p class="fragment text-left text-07">memcached</p>
 <p class="fragment text-left text-07">redis</p>
+<p class="fragment text-left text-07 text-red">file</p>
 <p class="fragment text-left text-07 text-red">array</p>
 
 +++ 
 ## Storage
-<p class="fragment text-left text-07 text-red">local</p>
 <p class="fragment text-left text-07">s3</p>
 <p class="fragment text-left text-07">sftp</p>
+<p class="fragment text-left text-07 text-red">local</p>
 <p class="fragment text-left text-07">...</p>
 
 +++ 
@@ -85,6 +85,17 @@ $speaker->save();
 @title[Local]
 ## local / self-hosted
 +++
+### Pro
+<p class="fragment text-left text-07">total control of the envrioment</p>
+<p class="fragment text-left text-07">dedicated performance</p>
+<p class="fragment text-left text-07">php artisan serve</p>
+
+### Cons
+<p class="fragment text-left text-07">prone to errors</p>
+<p class="fragment text-left text-07">difficult to scale</p>
+<p class="fragment text-left text-07">no failover</p>
+
++++
 ### Tools
 <p class="fragment text-left text-07">Homestead</p>
 <p class="fragment text-left text-07">Valet</p>
@@ -96,7 +107,31 @@ $speaker->save();
 @title[IaaS]
 ## iaas
 
+```bash
+PHP_VERSION=7.2
+echo "deb http://ppa.launchpad.net/ondrej/php/ubuntu xenial main" > /etc/apt/sources.list.d/ondrej-php.list && \
+echo "deb http://ppa.launchpad.net/ondrej/php-qa/ubuntu xenial main" > /etc/apt/sources.list.d/ondrej-php-qa.list && \
+apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 4F4EA0AAE5267A6C && \
+apt-get update && apt-get -y --no-install-recommends install libgeos-dev \
+  php$PHP_VERSION-fpm \
+  php$PHP_VERSION-mysql \
+  php$PHP_VERSION-curl \
+  php$PHP_VERSION-gd \
+  php$PHP_VERSION-mbstring \
+  php$PHP_VERSION-imap \
+  php$PHP_VERSION-zip \
+  php$PHP_VERSION-xml
 
+sed -i 's/^;cgi.fix_pathinfo=.*$/cgi.fix_pathinfo=0/' /etc/php/$PHP_VERSION/fpm/php.ini
+sed -i 's/^memory_limit =.*$/memory_limit = 512M/' /etc/php/$PHP_VERSION/fpm/php.ini
+sed -i 's/^upload_max_filesize =.*$/upload_max_filesize = 128M/' /etc/php/$PHP_VERSION/fpm/php.ini
+sed -i 's/^post_max_size =.*$/post_max_size = 128M/' /etc/php/$PHP_VERSION/fpm/php.ini
+
+sed -i 's/^;clear_env = no/clear_env = no/' /etc/php/$PHP_VERSION/fpm/pool.d/www.conf
+
+curl -sS https://getcomposer.org/installer | php -- --install-dir=/usr/local/bin --filename=composer
+
+```
 ---
 @title[PaaS]
 ## paas
