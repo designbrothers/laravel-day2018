@@ -47,12 +47,9 @@ At the end of the day it doesn't matter if its container or ftp, just deploy!
 @title[Local]
 ## local / self-hosted
 +++
-### Pro
 <p class="fragment text-left text-07">total control of the envrioment</p>
 <p class="fragment text-left text-07">dedicated performance</p>
 <p class="fragment text-left text-07">php artisan serve</p>
-
-### Cons
 <p class="fragment text-left text-07">prone to errors</p>
 <p class="fragment text-left text-07">difficult to scale</p>
 <p class="fragment text-left text-07">no failover</p>
@@ -68,7 +65,14 @@ At the end of the day it doesn't matter if its container or ftp, just deploy!
 ---
 @title[IaaS]
 ## iaas
++++
+<p class="fragment text-left text-07">total control on the underlying OS</p>
+<p class="fragment text-left text-07">more stuff to mantain</p>
+<p class="fragment text-left text-07">requires hardening</p>
+<p class="fragment text-left text-07">very flexible, it's possible to configure standalone servers or maybe a cluster</p>
 
++++
+#### Example php install script
 ```bash
 PHP_VERSION=7.2
 echo "deb http://ppa.launchpad.net/ondrej/php/ubuntu xenial main" > /etc/apt/sources.list.d/ondrej-php.list && \
@@ -92,10 +96,11 @@ curl -sS https://getcomposer.org/installer | php -- --install-dir=/usr/local/bin
 @title[PaaS]
 ## paas
 +++
-### focus on developers
+<p class="fragment text-left text-07">no control on the underlying OS</p>
 <p class="fragment text-left text-07">if you are fine with the default configuration</p>
 <p class="fragment text-left text-07">if you don't need any particular extension</p>
 <p class="fragment text-left text-07">the more is left behind, less is the control of it</p>
+<p class="fragment text-left text-07">every provider uses his own configurations</p>
 ---
 @title[PaaS]
 ![QR](assets/img/faas_furious.jpg)
