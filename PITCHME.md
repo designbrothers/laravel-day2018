@@ -33,7 +33,7 @@ At the end of the day it doesn't matter if its container or ftp, just deploy!
 
 +++
 ### Never forget
-<p class="fragment text-left text-07">file permission</p>
+<p class="fragment text-left text-07">file permission / ownership</p>
 <p class="fragment text-left text-07">url rewriting</p>
 <p class="fragment text-left text-07">discrete versions in composer.json</p>
 <p class="fragment text-left text-07">configure the .env</p>
@@ -50,8 +50,7 @@ At the end of the day it doesn't matter if its container or ftp, just deploy!
 ## local / self-hosted
 +++
 <p class="fragment text-left text-07">total control of the envrioment</p>
-<p class="fragment text-left text-07">php artisan serve</p>
-<p class="fragment text-left text-07">prone to errors</p>
+<p class="fragment text-left text-07">prone to errors if managed without a configuration management tool</p>
 <p class="fragment text-left text-07">difficult to scale</p>
 <p class="fragment text-left text-07">no failover</p>
 
@@ -60,7 +59,7 @@ At the end of the day it doesn't matter if its container or ftp, just deploy!
 <p class="fragment text-left text-07">Homestead</p>
 <p class="fragment text-left text-07">Valet</p>
 <p class="fragment text-left text-07">php artisan serve</p>
-
+<p class="fragment text-left text-07">Mailhog</p>
 
 
 ---
@@ -111,6 +110,7 @@ curl -sS https://getcomposer.org/installer | php -- --install-dir=/usr/local/bin
 <p class="fragment text-left text-07">different configurations</p>
 <p class="fragment text-left text-07">version missmatch on dependencies</p>
 <p class="fragment text-left text-07">firewall rules</p>
+<p class="fragment text-left text-07">env configuration</p>
 ---
 @title[PaaS]
 ![QR](assets/img/faas_furious.jpg)
