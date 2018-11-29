@@ -16,8 +16,8 @@ $speaker->wannaBe = 'System architect';
 $speaker->talkSpeed = 1.2;
 $speaker->save();
 ```
-
-
+### mission
+At the end of the day it doesn't matter if its container or ftp, just deploy!
 ---
 @title[Requirements]
 # Requirements
@@ -123,6 +123,9 @@ sed -i 's/^;clear_env = no/clear_env = no/' /etc/php/$PHP_VERSION/fpm/pool.d/www
 curl -sS https://getcomposer.org/installer | php -- --install-dir=/usr/local/bin --filename=composer
 
 ```
++++
+### Tools
+<p class="fragment text-left text-07">Laravel forge // Laravel envoyer</p>
 ---
 @title[PaaS]
 ## paas
