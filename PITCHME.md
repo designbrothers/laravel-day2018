@@ -53,23 +53,7 @@ At the end of the day it doesn't matter if its container or ftp, just deploy!
 <p class="fragment text-left text-07">prone to errors if managed without a configuration management tool</p>
 <p class="fragment text-left text-07">difficult to scale</p>
 <p class="fragment text-left text-07">no failover</p>
-
-+++
-### Tools
-<p class="fragment text-left text-07">Homestead</p>
-<p class="fragment text-left text-07">Valet</p>
-<p class="fragment text-left text-07">php artisan serve</p>
-<p class="fragment text-left text-07">Mailhog</p>
-
-
----
-@title[IaaS]
-## iaas
-+++
-<p class="fragment text-left text-07">total control on the underlying OS</p>
-<p class="fragment text-left text-07">more stuff to mantain</p>
-<p class="fragment text-left text-07">requires hardening</p>
-<p class="fragment text-left text-07">very flexible, it's possible to configure standalone servers or maybe a cluster</p>
+<p class="fragment text-left text-07">slow setup time</p>
 
 +++
 #### Example php install script
@@ -88,6 +72,24 @@ sed -i 's/^post_max_size =.*$/post_max_size = 128M/' /etc/php/$PHP_VERSION/fpm/p
 sed -i 's/^;clear_env = no/clear_env = no/' /etc/php/$PHP_VERSION/fpm/pool.d/www.conf
 curl -sS https://getcomposer.org/installer | php -- --install-dir=/usr/local/bin --filename=composer
 ```
+
++++
+### Tools
+<p class="fragment text-left text-07">Homestead</p>
+<p class="fragment text-left text-07">Valet</p>
+<p class="fragment text-left text-07">php artisan serve</p>
+<p class="fragment text-left text-07">Mailhog</p>
+
+
+---
+@title[IaaS]
+## iaas
++++
+<p class="fragment text-left text-07">total control on the underlying OS</p>
+<p class="fragment text-left text-07">more stuff to mantain</p>
+<p class="fragment text-left text-07">requires hardening</p>
+<p class="fragment text-left text-07">very flexible, it's possible to configure standalone servers or maybe a cluster</p>
+
 +++
 ### Tools
 <p class="fragment text-left text-07">Laravel forge // Laravel envoyer</p>
