@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="33b99325-0d01-45a2-9c21-eaeb25edb0c6" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/chapters/00_cover.md" beforeDir="false" afterPath="$PROJECT_DIR$/chapters/00_cover.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -69,9 +68,7 @@
         <entry file="file://$PROJECT_DIR$/chapters/00_cover.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor>
-                <caret column="52" selection-start-column="52" selection-end-column="52" />
-              </first_editor>
+              <first_editor />
               <second_editor />
             </state>
           </provider>
@@ -163,12 +160,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1543534659027</updated>
-      <workItem from="1543534660372" duration="559000" />
+      <workItem from="1543534660372" duration="657000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="559000" />
+    <option name="totallyTimeSpent" value="657000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1961" y="90" width="1680" height="996" extended-state="0" />
@@ -179,8 +176,8 @@
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Version Control" visible="true" weight="0.32964602" />
-      <window_info anchor="bottom" id="Terminal" weight="0.32964602" />
+      <window_info anchor="bottom" id="Version Control" weight="0.32964602" />
+      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.32964602" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
@@ -220,9 +217,7 @@
     <entry file="file://$PROJECT_DIR$/chapters/00_cover.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor>
-            <caret column="52" selection-start-column="52" selection-end-column="52" />
-          </first_editor>
+          <first_editor />
           <second_editor />
         </state>
       </provider>
