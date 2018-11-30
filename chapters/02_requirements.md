@@ -17,18 +17,23 @@
 ### Suggestion
 <table>
   <tr>
-    <th> </th>
+    <th>ENV</th>
     <th>DATABASE</th>
     <th>STORAGE</th>
   </tr>
   <tr>
     <td>DEV</td>
-    <td>STAGE</td>
-    <td>PROD</td>
+    <td>local MySQL</td>
+    <td>local / minio</td>
   </tr>
   <tr>
-    <td>local MySQL</td>
-    <td>IaaS MySQL</td>
-    <td>IaaS MySQL</td>
+    <td>STAGE</td>
+    <td>PaaS MySQL</td>
+    <td>PaaS s3</td>
+  </tr>
+  <tr>
+    <td>PROD</td>
+    <td>PaaS MySQL</td>
+    <td>PaaS s3</td>
   </tr>
 </table>
