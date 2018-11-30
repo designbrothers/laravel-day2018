@@ -9,11 +9,6 @@
 <p class="fragment text-left text-07">LOGGING: monolog-remote / slack / <span class="text-red">single (file)</span></p>
 
 +++
-### when developing
-<p class="fragment text-left text-07">use xdebug</p>
-<p class="fragment text-left text-07">use the App::environment() helper to enable or disable specific features</p>
-
-+++
 ### Suggestion
 <table>
   <tr>
