@@ -27,16 +27,16 @@
   </tr>
   <tr>
     <td>STAGE</td>
-    <td>PaaS MySQL</td>
-    <td>PaaS s3</td>
+    <td>SaaS MySQL</td>
+    <td>SaaS s3</td>
     <td>slack</td>
     <th>MailHog</th>
   </tr>
   <tr>
     <td>PROD</td>
-    <td>PaaS MySQL</td>
-    <td>PaaS s3</td>
+    <td>SaaS MySQL</td>
+    <td>SaaS s3</td>
     <td>any remote</td>
-    <th>PaaS SMTP</th>
+    <th>SaaS SMTP</th>
   </tr>
 </table>
