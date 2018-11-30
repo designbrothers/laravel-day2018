@@ -8,4 +8,4 @@
 +++
 ### Example
 <p class="fragment text-left text-07">add configuration file to the repo</p>
-<p class="fragment text-left text-07">use the provider cli to deploy</p>
+<p class="fragment text-left text-07">use the provider cli / git to deploy</p>
