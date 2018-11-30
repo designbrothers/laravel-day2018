@@ -64,6 +64,7 @@ $speaker->save();
     <td>any remote</td>
   </tr>
 </table>
+
 ---
 @title[Panoramic]
 ![QR](assets/img/comparison.jpg)
@@ -103,6 +104,7 @@ $speaker->save();
 <p class="fragment text-left text-07">all of the local features</p>
 <p class="fragment text-left text-07">pay as you go</p>
 <p class="fragment text-left text-07">deploy new resources in very short time</p>
+<p class="fragment text-left text-07">if used with configuration management allows consistent deployment</p>
 ---
 @title[PaaS]
 ## paas
