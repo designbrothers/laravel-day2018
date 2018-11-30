@@ -9,7 +9,7 @@
 <p class="fragment text-left text-07">LOGGING: monolog-remote / slack / <span class="text-red">single (file)</span></p>
 
 +++
-### in dev remember
+### when developing
 <p class="fragment text-left text-07">use xdebug</p>
 <p class="fragment text-left text-07">use the App::environment() helper to enable or disable specific features</p>
 
@@ -21,23 +21,27 @@
     <th>DATABASE</th>
     <th>STORAGE</th>
     <th>LOGGING</th>
+    <th>MAIL</th>
   </tr>
   <tr>
     <td>DEV</td>
     <td>local MySQL</td>
     <td>local / minio</td>
     <td>single</td>
+    <th>log</th>
   </tr>
   <tr>
     <td>STAGE</td>
     <td>PaaS MySQL</td>
     <td>PaaS s3</td>
     <td>slack</td>
+    <th>MailHog</th>
   </tr>
   <tr>
     <td>PROD</td>
     <td>PaaS MySQL</td>
     <td>PaaS s3</td>
     <td>any remote</td>
+    <th>PaaS SMTP</th>
   </tr>
 </table>

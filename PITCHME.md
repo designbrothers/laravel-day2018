@@ -32,7 +32,7 @@ $speaker->save();
 <p class="fragment text-left text-07">LOGGING: monolog-remote / slack / <span class="text-red">single (file)</span></p>
 
 +++
-### in dev remember
+### when developing
 <p class="fragment text-left text-07">use xdebug</p>
 <p class="fragment text-left text-07">use the App::environment() helper to enable or disable specific features</p>
 
@@ -44,26 +44,39 @@ $speaker->save();
     <th>DATABASE</th>
     <th>STORAGE</th>
     <th>LOGGING</th>
+    <th>MAIL</th>
   </tr>
   <tr>
     <td>DEV</td>
     <td>local MySQL</td>
     <td>local / minio</td>
     <td>single</td>
+    <th>log</th>
   </tr>
   <tr>
     <td>STAGE</td>
     <td>PaaS MySQL</td>
     <td>PaaS s3</td>
     <td>slack</td>
+    <th>MailHog</th>
   </tr>
   <tr>
     <td>PROD</td>
     <td>PaaS MySQL</td>
     <td>PaaS s3</td>
     <td>any remote</td>
+    <th>PaaS SMTP</th>
   </tr>
 </table>
+
+---
+@title[Deployment routine]
+## Deployment routine
+<p class="fragment text-left text-07">composer install --optimize-autoloader --no-dev</p>
+<p class="fragment text-left text-07">php artisan config:cache</p>
+<p class="fragment text-left text-07">php artisan route:cache</p>
+<p class="fragment text-left text-07">php artisan migrate</p>
+
 
 ---
 @title[Panoramic]
@@ -123,11 +136,11 @@ $speaker->save();
 <p class="fragment text-left text-07">file permissions</p>
 <p class="fragment text-left text-07">file ownership</p>
 <p class="fragment text-left text-07">different configurations</p>
-<p class="fragment text-left text-07">version missmatch on dependencies</p>
 <p class="fragment text-left text-07">firewall rules</p>
 <p class="fragment text-left text-07">url rewriting</p>
 <p class="fragment text-left text-07">discrete versions in composer.json</p>
 <p class="fragment text-left text-07">configure the .env (specially the APP_ENV variable)</p>
+
 ---
 @title[PaaS]
 ![QR](assets/img/faas_furious.jpg)
