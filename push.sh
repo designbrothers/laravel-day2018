@@ -1,6 +1,4 @@
-git pull
-
-echo > PITCHME.md
+echo > 'PITCHME.md'
 
 for file in ./chapters/*.md
 do
