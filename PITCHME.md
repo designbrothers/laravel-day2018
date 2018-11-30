@@ -43,21 +43,25 @@ $speaker->save();
     <th>ENV</th>
     <th>DATABASE</th>
     <th>STORAGE</th>
+    <th>LOGGING</th>
   </tr>
   <tr>
     <td>DEV</td>
     <td>local MySQL</td>
     <td>local / minio</td>
+    <td>single</td>
   </tr>
   <tr>
     <td>STAGE</td>
     <td>PaaS MySQL</td>
     <td>PaaS s3</td>
+    <td>slack</td>
   </tr>
   <tr>
     <td>PROD</td>
     <td>PaaS MySQL</td>
     <td>PaaS s3</td>
+    <td>any remote</td>
   </tr>
 </table>
 ---
