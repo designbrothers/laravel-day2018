@@ -18,7 +18,7 @@ $speaker->save();
 ```
 
 ### focus
-<p class="fragment text-left text-07">Give an overview of different 'infrastructures'</p>
+<p class="fragment text-left text-07">Give an overview of different 'infrastructures' and 'platforms'</p>
 
 ---
 @title[Requirements]
@@ -30,13 +30,6 @@ $speaker->save();
 <p class="fragment text-left text-07">STORAGE: s3 / sftp / <span class="text-red">local</span></p>
 <p class="fragment text-left text-07">QUEUE: database / redis</p>
 <p class="fragment text-left text-07">LOGGING: monolog-remote / slack / <span class="text-red">single (file)</span></p>
-
-+++
-### Never forget
-<p class="fragment text-left text-07">file permission / ownership</p>
-<p class="fragment text-left text-07">url rewriting</p>
-<p class="fragment text-left text-07">discrete versions in composer.json</p>
-<p class="fragment text-left text-07">configure the .env (specially the APP_ENV variable)</p>
 
 +++
 ### in dev remember
@@ -53,7 +46,7 @@ $speaker->save();
 ## local / self-hosted / OnPremises
 <p class="fragment text-left text-07">total control of the environment</p>
 <p class="fragment text-left text-07">prone to errors if managed without a configuration management tool</p>
-<p class="fragment text-left text-07">difficult to scale</p>
+<p class="fragment text-left text-07">usually difficult to scale</p>
 <p class="fragment text-left text-07">no failover</p>
 <p class="fragment text-left text-07">slow setup time</p>
 <p class="fragment text-left text-07">requires hardening</p>
@@ -61,11 +54,12 @@ $speaker->save();
 <p class="fragment text-left text-07">total control of the underlying OS</p>
 
 +++
-### Tools
+### dev Tools
 <p class="fragment text-left text-07">Homestead</p>
 <p class="fragment text-left text-07">Valet</p>
 <p class="fragment text-left text-07">php artisan serve</p>
 <p class="fragment text-left text-07">Mailhog</p>
+<p class="fragment text-left text-07">minio</p>
 
 +++
 ### Example
@@ -101,7 +95,9 @@ $speaker->save();
 <p class="fragment text-left text-07">different configurations</p>
 <p class="fragment text-left text-07">version missmatch on dependencies</p>
 <p class="fragment text-left text-07">firewall rules</p>
-<p class="fragment text-left text-07">env configuration</p>
+<p class="fragment text-left text-07">url rewriting</p>
+<p class="fragment text-left text-07">discrete versions in composer.json</p>
+<p class="fragment text-left text-07">configure the .env (specially the APP_ENV variable)</p>
 ---
 @title[PaaS]
 ![QR](assets/img/faas_furious.jpg)
